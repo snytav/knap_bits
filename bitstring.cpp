@@ -43,7 +43,7 @@ int main()
     char s[100];
     strcpy_s(s, "12345678abcdefgh");
     printStringBySymbol(s);
-    char* conv_s = toBinaryString(0xafaf);
+    char* conv_s = toBinaryString(0xabffafaf);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
