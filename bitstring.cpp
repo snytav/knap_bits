@@ -13,7 +13,7 @@ void printStringBySymbol(char* s)
     }
 }
 
-char* toBinaryString(int n) {
+char* toBinaryString(unsigned long long n) {
     char string[33];// = (char*)malloc(sizeof(int) * 8 + 1);
     strcpy_s(string, sizeof(int) * 8 + 1, "");
     printf("\n");
@@ -43,7 +43,7 @@ int main()
     char s[100];
     strcpy_s(s, "12345678abcdefgh");
     printStringBySymbol(s);
-    char* conv_s = toBinaryString(0xaf);
+    char* conv_s = toBinaryString(0xafaf);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
